@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.apple.gynocare3"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.apple.gynocare3.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.apple.gynocare3.form1" >
+            <intent-filter>
+                <action android:name="com.example.apple.gynocare3.form1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.apple.gynocare3.form2" >
+            <intent-filter>
+                <action android:name="com.example.apple.gynocare3.form2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.apple.gynocare3.form3" >
+            <intent-filter>
+                <action android:name="com.example.apple.gynocare3.form3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.apple.gynocare3.form4" >
+            <intent-filter>
+                <action android:name="com.example.apple.gynocare3.form4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.apple.gynocare3.form5" >
+            <intent-filter>
+                <action android:name="com.example.apple.gynocare3.form5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.apple.gynocare3.form6" >
+            <intent-filter>
+                <action android:name="com.example.apple.gynocare3.form6" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.apple.gynocare3.form7" >
+            <intent-filter>
+                <action android:name="com.example.apple.gynocare3.form7" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.apple.gynocare3.form8" >
+            <intent-filter>
+                <action android:name="com.example.apple.gynocare3.form8" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.apple.gynocare3.form9" >
+            <intent-filter>
+                <action android:name="com.example.apple.gynocare3.form9" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.apple.gynocare3.topbar" >
+            <intent-filter>
+                <action android:name="com.example.apple.gynocare3.topbar" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

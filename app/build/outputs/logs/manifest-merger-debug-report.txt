@@ -1,0 +1,169 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:2:1-90:12
+	xmlns:android
+		ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:2:11-69
+	package
+		ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:3:5-42
+		INJECTED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:5:5-88:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/apple/Desktop/GynoCare3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/apple/Desktop/GynoCare3/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/apple/Desktop/GynoCare3/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /Users/apple/Desktop/GynoCare3/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /Users/apple/Desktop/GynoCare3/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/apple/Desktop/GynoCare3/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] /Users/apple/Desktop/GynoCare3/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:8:9-41
+	android:allowBackup
+		ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:10:9-40
+activity#com.example.apple.gynocare3.MainActivity
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:11:9-17:20
+	android:name
+		ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:11:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:12:13-16:29
+action#android.intent.action.MAIN
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:13:17-69
+	android:name
+		ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:15:17-77
+	android:name
+		ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:15:27-74
+activity#com.example.apple.gynocare3.form1
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:18:9-24:20
+	android:name
+		ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:18:19-40
+intent-filter#android.intent.category.DEFAULT+com.example.apple.gynocare3.form1
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:19:13-23:29
+action#com.example.apple.gynocare3.form1
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:20:17-76
+	android:name
+		ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:20:25-73
+category#android.intent.category.DEFAULT
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:22:17-76
+	android:name
+		ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:22:27-73
+activity#com.example.apple.gynocare3.form2
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:25:9-31:20
+	android:name
+		ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:25:19-40
+intent-filter#android.intent.category.DEFAULT+com.example.apple.gynocare3.form2
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:26:13-30:29
+action#com.example.apple.gynocare3.form2
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:27:17-76
+	android:name
+		ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:27:25-73
+activity#com.example.apple.gynocare3.form3
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:32:9-38:20
+	android:name
+		ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:32:19-40
+intent-filter#android.intent.category.DEFAULT+com.example.apple.gynocare3.form3
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:33:13-37:29
+action#com.example.apple.gynocare3.form3
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:34:17-76
+	android:name
+		ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:34:25-73
+activity#com.example.apple.gynocare3.form4
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:39:9-45:20
+	android:name
+		ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:39:19-40
+intent-filter#android.intent.category.DEFAULT+com.example.apple.gynocare3.form4
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:40:13-44:29
+action#com.example.apple.gynocare3.form4
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:41:17-76
+	android:name
+		ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:41:25-73
+activity#com.example.apple.gynocare3.form5
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:46:9-52:20
+	android:name
+		ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:46:19-40
+intent-filter#android.intent.category.DEFAULT+com.example.apple.gynocare3.form5
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:47:13-51:29
+action#com.example.apple.gynocare3.form5
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:48:17-76
+	android:name
+		ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:48:25-73
+activity#com.example.apple.gynocare3.form6
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:53:9-59:20
+	android:name
+		ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:53:19-40
+intent-filter#android.intent.category.DEFAULT+com.example.apple.gynocare3.form6
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:54:13-58:29
+action#com.example.apple.gynocare3.form6
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:55:17-76
+	android:name
+		ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:55:25-73
+activity#com.example.apple.gynocare3.form7
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:60:9-66:20
+	android:name
+		ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:60:19-40
+intent-filter#android.intent.category.DEFAULT+com.example.apple.gynocare3.form7
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:61:13-65:29
+action#com.example.apple.gynocare3.form7
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:62:17-76
+	android:name
+		ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:62:25-73
+activity#com.example.apple.gynocare3.form8
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:67:9-73:20
+	android:name
+		ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:67:19-40
+intent-filter#android.intent.category.DEFAULT+com.example.apple.gynocare3.form8
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:68:13-72:29
+action#com.example.apple.gynocare3.form8
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:69:17-76
+	android:name
+		ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:69:25-73
+activity#com.example.apple.gynocare3.form9
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:74:9-80:20
+	android:name
+		ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:74:19-40
+intent-filter#android.intent.category.DEFAULT+com.example.apple.gynocare3.form9
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:75:13-79:29
+action#com.example.apple.gynocare3.form9
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:76:17-76
+	android:name
+		ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:76:25-73
+activity#com.example.apple.gynocare3.topbar
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:81:9-87:20
+	android:name
+		ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:81:19-41
+intent-filter#android.intent.category.DEFAULT+com.example.apple.gynocare3.topbar
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:82:13-86:29
+action#com.example.apple.gynocare3.topbar
+ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:83:17-77
+	android:name
+		ADDED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml:83:25-74
+uses-sdk
+INJECTED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/apple/Desktop/GynoCare3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/apple/Desktop/GynoCare3/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/apple/Desktop/GynoCare3/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /Users/apple/Desktop/GynoCare3/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /Users/apple/Desktop/GynoCare3/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/apple/Desktop/GynoCare3/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] /Users/apple/Desktop/GynoCare3/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/apple/Desktop/GynoCare3/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] /Users/apple/Desktop/GynoCare3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:23:9-75

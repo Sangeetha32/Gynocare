@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="17"
+    density="xhdpi"
+    format="7"
+    timestamp="1467817415183341000"
+    token="-8317060146375766661" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <artifact
+        location="/Users/apple/Desktop/GynoCare3/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="1467817415183341000" >
+        <artifact
+            location="/Users/apple/Desktop/GynoCare3/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
