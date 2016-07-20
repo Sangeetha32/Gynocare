@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#e8e8e7"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#409BC0"
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:layout_alignParentTop="true">
+
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  ="
+                android:textColor="#ffffff"
+                android:layout_marginRight="25dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                android:layout_gravity="center_horizontal|center_vertical"/>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical"
+            android:background="@drawable/greybackground"
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Investigations"
+                android:id="@+id/gen_info"
+                android:elegantTextHeight="false"
+                android:focusable="false"
+                android:focusableInTouchMode="true" />
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=" Hb"
+                style="@style/Identifier"
+                />
+
+            <EditText style="@style/box"
+                android:hint="percentage"
+                android:id="@+id/Hb_inv_box"
+                android:inputType="numberDecimal"
+                />
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=" TC"
+                style="@style/Identifier"
+                />
+
+            <RadioGroup
+                android:id="@+id/TC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/TC_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Normal"
+                    />
+
+                <RadioButton
+                    android:id="@+id/TC_abnormal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Abnormal" />
+
+            </RadioGroup>
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=" Platelet Count"
+                style="@style/Identifier"
+                />
+
+            <RadioGroup
+                android:id="@+id/platelet_count"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/platelet_count_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Normal"
+                    />
+
+                <RadioButton
+                    android:id="@+id/platelet_count_abnormal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Abnormal" />
+
+            </RadioGroup>
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=" Peripheral Smear"
+                style="@style/Identifier"
+                />
+
+            <RadioGroup
+                android:id="@+id/Peripheral_Smear"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/Peripheral_Smear_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Normal"
+                    />
+
+                <RadioButton
+                    android:id="@+id/Peripheral_Smear_abnormal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Abnormal" />
+
+            </RadioGroup>
+
+
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=" Blood Grouping/Rh Typing"
+                style="@style/Identifier"
+                />
+
+            <RadioGroup
+                android:id="@+id/blood_grouping"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/Aplus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A+"
+                    />
+
+                <RadioButton
+                    android:id="@+id/Aminus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A-"
+                    />
+                <RadioButton
+                    android:id="@+id/Bplus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="B+"
+                    />
+                <RadioButton
+                    android:id="@+id/Bminus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="B-"
+                    />
+                <RadioButton
+                    android:id="@+id/Oplus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="O+"
+                    />
+                <RadioButton
+                    android:id="@+id/Ominus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="O-"
+                    />
+                <RadioButton
+                    android:id="@+id/ABplus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AB+"
+                    />
+                <RadioButton
+                    android:id="@+id/ABminus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AB-"
+                    />
+
+
+
+            </RadioGroup>
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=" Urine routine"
+                style="@style/Identifier"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:text="   Albumin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <RadioGroup
+                    android:id="@+id/albumin"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="56dp"
+
+                    android:layout_height="wrap_content" >
+
+                    <RadioButton
+                        android:id="@+id/albumin_normal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Normal"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/albumin_abnormal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Abnormal" />
+
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:text="   Sugar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <RadioGroup
+                    android:id="@+id/Sugar"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="72dp"
+
+                    android:layout_height="wrap_content" >
+
+                    <RadioButton
+                        android:id="@+id/Sugar_normal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Normal"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/Sugar_abnormal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Abnormal" />
+
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:text="   Microscopy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <RadioGroup
+                    android:id="@+id/Microscopy"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="35dp"
+
+                    android:layout_height="wrap_content" >
+
+                    <RadioButton
+                        android:id="@+id/Microscopy_normal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Normal"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/Microscopy_abnormal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Abnormal" />
+
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:text="   C/S"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <RadioGroup
+                    android:id="@+id/CS"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="85dp"
+
+                    android:layout_height="wrap_content" >
+
+                    <RadioButton
+                        android:id="@+id/CS_normal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Normal"
+                        />
+
+                    <RadioButton
+                        android:id="@+id/CS_abnormal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Abnormal" />
+
+                </RadioGroup>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=" HIV"
+                style="@style/Identifier"
+                />
+
+            <RadioGroup
+                android:id="@+id/HIV"
+                android:layout_width="wrap_content"
+
+
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/HIV_positive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Positive"
+                    />
+
+                <RadioButton
+                    android:id="@+id/HIV_negative"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Negative" />
+
+            </RadioGroup>
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=" HbsAg"
+                style="@style/Identifier"
+                />
+
+            <EditText style="@style/box_big"
+                android:hint="comments"
+                android:id="@+id/HbsAg"
+                android:scrollbars="vertical"
+                />
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=" VDRL"
+                style="@style/Identifier"
+                />
+
+            <EditText style="@style/box_big"
+                android:hint="comments"
+                android:id="@+id/VDRL"
+                android:scrollbars="vertical"
+                />
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=" RBS"
+                style="@style/Identifier"
+                />
+
+            <EditText style="@style/box_big"
+                android:hint="comments"
+                android:id="@+id/RBS"
+                android:scrollbars="vertical"
+                />
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=" FBS"
+                style="@style/Identifier"
+                />
+
+            <RadioGroup
+                android:id="@+id/FBS"
+                android:layout_width="wrap_content"
+
+
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/FBS_positive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Normal"
+                    />
+
+                <RadioButton
+                    android:id="@+id/FBS_negative"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Abnormal" />
+
+            </RadioGroup>
+
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=" PPBS"
+                style="@style/Identifier"
+                />
+
+            <RadioGroup
+                android:id="@+id/PPBS"
+                android:layout_width="wrap_content"
+
+
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/PPBS_positive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Normal"
+                    />
+
+                <RadioButton
+                    android:id="@+id/PPBS_negative"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Abnormal" />
+
+            </RadioGroup>
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=" Ultrasound"
+                style="@style/Identifier"
+                />
+
+            <RadioGroup
+                android:id="@+id/Ultrasound"
+                android:layout_width="wrap_content"
+
+
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/Ultrasound_positive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Normal"
+                    />
+
+                <RadioButton
+                    android:id="@+id/Ultrasound_negative"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Abnormal" />
+
+            </RadioGroup>
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=" Pap Smear"
+                style="@style/Identifier"
+                />
+
+            <RadioGroup
+                android:id="@+id/Pap_Smear"
+                android:layout_width="wrap_content"
+
+
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/Pap_Smear_positive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Normal"
+                    />
+
+                <RadioButton
+                    android:id="@+id/Pap_Smear_negative"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Abnormal" />
+
+            </RadioGroup>
+
+
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/previous_page1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:textColor="#000000"
+                    android:text="Previous"
+                    android:onClick="previous"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:textColor="#000000"
+                    android:text="|"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:id="@+id/next_page1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:textColor="#000000"
+                    android:clickable="true"
+                    android:text="Next"
+                    android:onClick="next"
+                    android:textStyle="bold"
+
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
