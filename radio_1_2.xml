@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#e8e8e7"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#409BC0"
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:layout_alignParentTop="true">
+
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  ="
+                android:textColor="#ffffff"
+                android:layout_marginRight="25dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                android:layout_gravity="center_horizontal|center_vertical"/>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#f3f3f3"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical"
+
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#83b817"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Panchayat Name"
+                android:id="@+id/pan_1"
+                android:elegantTextHeight="false"
+                android:focusable="false"
+                android:focusableInTouchMode="true" />
+
+
+
+            <RadioGroup
+                android:id="@+id/panchayat_G"
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/Agaram"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Agaram"
+                    />
+
+                <RadioButton
+                    android:id="@+id/Beggilipalli"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Beggilipalli"
+                    />
+                <RadioButton
+                    android:id="@+id/Cheekatipalli"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cheekatipalli"
+                    />
+                <RadioButton
+                    android:id="@+id/Chinnagollapalli"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chinnagollapalli"
+                    />
+                <RadioButton
+                    android:id="@+id/Dasimanupalli"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dasimanupalli"
+                    />
+                <RadioButton
+                    android:id="@+id/Gudipalli"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gudipalli"
+                    />
+                <RadioButton
+                    android:id="@+id/Gundlasagaram"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gundlasagaram"
+                    />
+                <RadioButton
+                    android:id="@+id/Kanamanapalli"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kanamanapalli"
+                    />
+                <RadioButton
+                    android:id="@+id/Kanchibandarlapalli"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kanchibandarlapalli"
+                    />
+                <RadioButton
+                    android:id="@+id/Kodathanapalli"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kodathanapalli"
+                    />
+                <RadioButton
+                    android:id="@+id/Kuppiganipalli"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kuppiganipalli"
+                    />
+                <RadioButton
+                    android:id="@+id/O.N.Kothur"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="O.N.Kothur"
+                    />
+                <RadioButton
+                    android:id="@+id/Peddabaganiwada"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Peddabaganiwada"
+                    />
+                <RadioButton
+                    android:id="@+id/Pogurupalli"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pogurupalli"
+                    />
+                <RadioButton
+                    android:id="@+id/Sanganapalli"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sanganapalli"
+                    />
+                <RadioButton
+                    android:id="@+id/Settipalli"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Settipalli"
+                    />
+                <RadioButton
+                    android:id="@+id/Sodiganipalli"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sodiganipalli"
+                    />
+                <RadioButton
+                    android:id="@+id/Yamaganipalli"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yamaganipalli"
+                    />
+
+
+
+
+            </RadioGroup>
+
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="#e8e8e7"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#409BC0"
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:layout_alignParentTop="true">
+
+
+            <TextView android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="  ="
+                android:textColor="#ffffff"
+                android:layout_marginRight="25dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                android:layout_gravity="center_horizontal|center_vertical"/>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical"
+
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Kuppiganipalli"
+                android:background="#83b817"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+
+
+                android:id="@+id/pan_1"
+                android:elegantTextHeight="false"
+                android:focusable="false"
+                android:focusableInTouchMode="true" />
+
+
+
+            <RadioGroup
+                android:id="@+id/Kuppiganipalli_options"
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/Kotachambagiri"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kotachambagiri"
+                    />
+                <RadioButton
+                    android:id="@+id/Kuppiganipalli_sub"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kuppiganipalli"
+                    />
+                <RadioButton
+                    android:id="@+id/Ontipalli"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ontipalli"
+                    />
+                <RadioButton
+                    android:id="@+id/Ontipalli_Ry_Station"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ontipalli Ry Station"
+                    />
+                <RadioButton
+                    android:id="@+id/Sirigiripalli"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sirigiripalli"
+                    />
+
+
+
+            </RadioGroup>
+
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
